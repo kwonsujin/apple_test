@@ -1,0 +1,108 @@
+@font-face {
+   font-family: 'SFProKR';
+   src: url(../font/SFProKRDisplay_light.woff2) format('woff2');
+   font-weight: 100;
+}
+@font-face {
+   font-family: 'SFProKR';
+   src: url(../font/SFProKRDisplay_regular.woff2) format('woff2');
+   font-weight: 200;
+}
+@font-face {
+   font-family: 'SFProKR';
+   src: url(../font/SFProKRDisplay_semibold.woff2) format('woff2');
+   font-weight: 300;
+}
+@font-face {
+   font-family: 'SFProKR';
+   src: url(../font/SFProKRDisplay_bold.woff2) format('woff2');
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: 'SFProtext';
+   src: url(../font/sf-pro-text_light.woff2) format('woff2');
+   font-weight: 100;
+}
+@font-face {
+   font-family: 'SFProtext';
+   src: url(../font/sf-pro-text_regular.woff2) format('woff2');
+   font-weight: 200;
+}
+@font-face {
+   font-family: 'SFProtext';
+   src: url(../font/sf-pro-text_semibold.woff2) format('woff2');
+   font-weight: 300;
+}
+@font-face {
+   font-family: 'SFProtext';
+   src: url(../font/sf-pro-text_bold.woff2) format('woff2');
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'SFProtext';
+   src: url(../font/sf-pro-display_heavy.woff2) format('woff2');
+   font-weight: 500;
+}
+
+@font-face {
+   font-family: 'SFProdisplay';
+   src: url(../font/sf-pro-display_regular.woff2) format('woff2');
+   font-weight: 100;
+}
+@font-face {
+   font-family: 'SFProdisplay';
+   src: url(../font/sf-pro-display_semibold.woff2) format('woff2');
+   font-weight: 200;
+}
+@font-face {
+   font-family: 'SFProdisplay';
+   src: url(../font/sf-pro-display_bold.woff2) format('woff2');
+   font-weight: 300;
+}
+@font-face {
+   font-family: 'SFProdisplay';
+   src: url(../font/sf-pro-display_heavy.woff2) format('woff2');
+   font-weight: 400;
+}
+
+
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+body { font-family: 'Noto Sans KR'; }
+li { list-style: none; }
+a { text-decoration: none;}
+
+div, ul, li, a {  background-position: center center; background-repeat: no-repeat;}
+
+/* fontcolor */
+.p_blue1 { color: rgb(0,102,204); }
+.p_blue2 { color: rgb(41,151,255); }
+.text_color { color: rgb(29,29,31); }
+.c_255 { color: rgb(255,255,255); }
+
+/* font-option */
+.maintitle { font-family: 'SFProtext'; font-weight: 400; font-size: 56px; line-height: 66px; }
+.main_subtitle { font-family: 'SFProKR'; font-weight: 200; font-size: 28px; line-height: 31px; }
+.price_info { font-family: 'SFProKR', 'SFProdisplay'; font-weight: 200; font-size: 17px; line-height: 27px; color: rgb(134,134,139); }
+.btn_blue {  font-family: 'SFProKR'; font-weight: 200; font-size: 21px; line-height: 1.5; }
+
+.product_option { font-family: 'SFProKR'; font-weight: 600; font-size: 17px; line-height: 23px;}
+.product_maintitle { font-family: 'SFProKR', 'SFProdisplay'; font-family: 600; font-size: 40px; line-height: 44px; }
+.product_subtitle { font-family: 'SFProKR', 'SFProdisplay'; font-weight: 400; font-size: 21px; line-height: 26px; letter-spacing: 0.336px; }
+
+/* margin */
+.mb_2 { margin-bottom: 2px; }
+.mb_4 { margin-bottom: 4px; }
+.mb_6 { margin-bottom: 6px; }
+.mb_13 { margin-bottom: 13px; }
+.mb_11 { margin-bottom: 11px; }
+.mb_12 { margin-bottom: 12px; }
+.mt_12 { margin-top: 12px; }
+.mt_24 { margin-top: 24px; }
+
+
+/* blue button */
+.btn_blue { font-family: 'SFProKR'; font-size: 21px; font-weight: 200; line-height: 32px; display: inline-block; margin: 0 10px; }
+
+.btn_blue2 { font-family: 'SFProKR'; font-size: 17px; font-weight: 200; line-height: 23px; display: inline-block; margin: 0 10px; }
